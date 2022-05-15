@@ -115,7 +115,7 @@ async def help(bot: DonLee_Robot_V2, msg: Import.Msg):
 @DonLee_Robot_V2.on_message(filters.command(["about"]) & filters.private, group=1)
 async def about(bot: DonLee_Robot_V2, msg: Import.Msg):
         button = [[
-          Import.Button("👨‍💻𝖣𝖾𝗉𝗅𝗈𝗒", url='https://t.me/cinemaclubcc'),
+          Import.Button("💞 Join Our Channel 💞", url='https://t.me/malayali00l'),
           Import.Button("𝖲𝗈𝗎𝗋𝖼𝖾📦", callback_data="source")
           ],[
           Import.Button("⚠️𝖧𝖾𝗅𝗉", callback_data="help"),
@@ -139,7 +139,7 @@ async def sub(bot: DonLee_Robot_V2, msg: Import.Msg):
           Import.Button("𝖲𝗎𝗉𝗉𝗈𝗋𝗍 Group🤝", url="https://t.me/MMCINEMACHAKKU")
           ],[
           Import.Button("📢𝖴𝗉𝖽𝖺𝗍𝖾𝗌", url="https://t.me/malayali00l"),
-          Import.Button("Group2💞", url="https://t.me/MM_CINEMA_CLUB_GROUP")
+          Import.Button("Movie Group💞", url="https://t.me/MM_CINEMA_CLUB_GROUP")
           ],[
           Import.Button("📦𝖦𝗂𝗍𝗁𝗎𝖻", url="https://github.com/BROOK980"),
           Import.Button("Help Group😁", url="https://t.me/+xVLXMjF8dvoxNTc1")
